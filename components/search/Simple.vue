@@ -7,8 +7,6 @@
         v-model="query"
         @input="searchBy"
       ></v-text-field>
-
-      <SearchAdvanced />
     </v-container>
   </v-form>
 </template>
