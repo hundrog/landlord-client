@@ -1,7 +1,6 @@
 <template>
   <v-container>
     <v-responsive class="overflow-y-auto" max-height="90vh">
-      <div class="pa-2 text-center">Reviews</div>
       <ReviewsShow v-for="(review, i) in reviews" :review="review" :key="i" />
     </v-responsive>
   </v-container>

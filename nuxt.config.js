@@ -41,15 +41,11 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    [
-      '@nuxtjs/i18n',
-      {
-        locales: ['en', 'es'],
-        defaultLocale: 'en',
-      },
-      'vue-google-autocomplete'
-    ]
   ],
+
+  axios: {
+    proxy: true
+  },
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
